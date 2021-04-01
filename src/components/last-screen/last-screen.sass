@@ -1,0 +1,218 @@
+.last-screen
+  overflow: hidden
+  padding: 30px 0
+
+.last-screen__slider.swiper-container
+  overflow: visible
+  margin-top: 20px
+  padding-bottom: 10px
+
+.last-screen__subtitle
+  text-align: center
+
+.last-screen__title
+  margin-top: 6px
+  text-align: center
+
+.last-screen__slider-slide.swiper-slide
+  background-color: #ffffff
+  box-shadow: 0 4px 10px rgba(205, 205, 205, 0.5)
+  display: flex
+  height: auto
+  flex-direction: column
+  opacity: 0.3
+
+.last-screen__slider-slide.swiper-slide-visible
+  opacity: 1
+
+.last-screen__slider-slide-photo
+  flex-shrink: 0
+  height: 250px
+
+  img
+    height: 100%
+    object-fit: cover
+    width: 100%
+
+.last-screen__slider-slide-content
+  display: flex
+  flex-direction: column
+  flex-grow: 1
+  padding: 20px
+
+.last-screen__slider-slide-content-top
+  align-items: center
+  display: flex
+
+.last-screen__slider-slide-price
+  color: $beige
+  font-weight: 600
+  font-size: 12px
+  line-height: 16px
+
+.last-screen__slider-slide-price-old
+  color: $primary-color
+  font-weight: 300
+  font-size: 12px
+  line-height: 16px
+  margin-left: 10px
+  text-decoration-line: line-through
+
+.last-screen__slider-slide-name
+  color: #232C38
+  font-weight: 700
+  font-size: 14px
+  line-height: 18px
+  margin-top: 10px
+
+.last-screen__slider-slide-text
+  color: $dark-gray
+  font-weight: 300
+  font-size: 12px
+  line-height: 16px
+  margin: 10px 0
+
+.last-screen__slider-slide-buttons
+  margin-top: auto
+
+.last-screen__slider-slide-button
+  border-radius: 19px
+  color: $light-gray2
+  display: inline-block
+  font-weight: 700
+  font-size: 12px
+  line-height: 26px
+  text-decoration: none
+  text-align: center
+  padding: 5px 15px
+
+.last-screen__slider-slide-button_beige
+  background: $beige
+  width: 134px
+
+.last-screen__slider-slide-button_transparent
+  color: $primary-color
+  margin-left: 25px
+  padding: 5px
+
+.last-screen__slider-button-prev, .last-screen__slider-button-next
+  display: none
+
++mq(tablet)
+
+  .last-screen
+    padding: 88px 0 113px
+
+  .last-screen__slider.swiper-container
+    margin-top: 64px
+    padding-bottom: 15px
+
+  .last-screen__slider-slide.swiper-slide
+    box-shadow: 0 4px 24px rgba(205, 205, 205, 0.5)
+    min-height: 562px
+    width: 360px
+
+  .last-screen__slider-slide-photo
+    height: 300px
+
+  .last-screen__slider-slide-content
+    padding: 30px
+
+  .last-screen__slider-slide-price
+    font-size: 20px
+    line-height: 24px
+
+  .last-screen__slider-slide-price-old
+    font-size: 14px
+    line-height: 19px
+
+  .last-screen__slider-slide-name
+    color: #232C38
+    font-weight: 700
+    font-size: 24px
+    line-height: 28px
+    margin-top: 10px
+
+  .last-screen__slider-slide-text
+    color: $dark-gray
+    font-weight: 300
+    font-size: 16px
+    line-height: 22px
+    margin-top: 10px
+
+  .last-screen__slider-slide-buttons
+    margin-top: auto
+
+  .last-screen__slider-slide-button
+    border-radius: 19px
+    color: $light-gray2
+    display: inline-block
+    font-weight: 700
+    font-size: 16px
+    line-height: 22px
+    text-decoration: none
+    text-align: center
+    padding: 5px 15px
+
+  .last-screen__slider-slide-button_beige
+    background: $beige
+    width: 134px
+
+  .last-screen__slider-slide-button_transparent
+    color: $primary-color
+    margin-left: 25px
+    padding: 5px
+
++mq(desktop)
+
+  .last-screen
+    position: relative
+
+    &:after
+      background-color: $primary-color
+      content: ''
+      height: 100%
+      position: absolute
+      right: 0
+      top: 0
+      width: 380px
+
+  .last-screen__slider-slide.swiper-slide
+    min-height: 562px
+    width: 360px
+
+  .last-screen__slider-slide-content
+    padding: 42px
+
+  .last-screen__slider-slide-price-old
+    margin-left: 15px
+
+  .last-screen__slider-button-prev, .last-screen__slider-button-next
+    align-items: center
+    background-color: $beige
+    border-radius: 50%
+    border: none
+    cursor: pointer
+    display: flex
+    justify-content: center
+    height: 48px
+    position: absolute
+    outline: none
+    opacity: 1
+    top: 50%
+    transform: translateY(-50%)
+    transition: $default-transition
+    width: 48px
+    z-index: 1
+
+  .last-screen__slider-button-prev
+    left: -57px
+
+    svg
+      transform: rotate(180deg)
+
+  .last-screen__slider-button-next
+    right: -57px
+
+  .swiper-button-disabled
+    opacity: 0

@@ -1,0 +1,19 @@
+@import "../variables/variables"
+
+.container
+  margin: 0 auto
+  padding: 0 20px
+  max-width: $wp1
+
+@include mq(tablet)
+
+  .container
+    padding: 0 32px
+    width: $wp2
+    max-width: none
+
+@include mq(desktop)
+
+  .container
+    padding: 0 10px
+    width: $wp3

@@ -1,0 +1,193 @@
+.slider
+  padding: 30px 0
+
+.slider__item.swiper-container
+  margin: 20px -20px 0
+  padding: 0 20px 20px
+
+.slider__item-slide.swiper-slide
+  box-shadow: 0px 4px 24px rgba(205, 205, 205, 0.5)
+  display: flex
+
+.slider__item-slide-photo
+  background-color: $light-gray
+  flex-grow: 0
+  flex-shrink: 0
+  width: 150px
+
+  img
+    width: 100%
+
+.slider__item-slide-content
+  display: flex
+  flex-direction: column
+  flex-grow: 1
+  margin: 15px 7px 15px 15px
+
+.slider__item-slide-price
+  color: $beige
+  font-weight: 600
+  font-size: 20px
+  line-height: 24px
+
+.slider__item-slide-name
+  color: #232C38
+  font-weight: 700
+  font-size: 14px
+  line-height: 18px
+  margin-top: 8px
+
+.slider__item-slide-text
+  color: $dark-gray
+  font-weight: 300
+  font-size: 13px
+  line-height: 16px
+  margin-top: 10px
+
+.slider__item-slide-buttons
+  margin-top: auto
+
+.slider__item-slide-button
+  border-radius: 19px
+  color: $light-gray2
+  display: inline-block
+  font-size: 13px
+  line-height: 16px
+  text-decoration: none
+  text-align: center
+  padding: 6px 10px
+
+.slider__item-slide-button_beige
+  background: $beige
+
+.slider__item-slide-button_transparent
+  color: $primary-color
+  margin-left: 5px
+
++mq(tablet)
+
+  .slider
+    overflow: hidden
+    padding: 40px 0 50px
+
+  .slider__item.swiper-container
+    margin: 30px 0 0
+    padding: 0
+    height: 350px
+    overflow: visible
+
+  .slider__item-slide.swiper-slide
+    display: flex
+    height: 163px
+    opacity: 0.3
+    width: 560px
+
+  .slider__item-slide.swiper-slide-visible
+    opacity: 1
+
++mq(desktop)
+
+  .slider
+    padding: 90px 0 128px
+    position: relative
+
+    &:after
+      background-color: $primary-color
+      content: ''
+      height: 100%
+      position: absolute
+      left: 0
+      top: 0
+      width: 377px
+
+  .slider__container
+    width: 1170px
+
+  .slider__subtitle
+    text-align: center
+
+  .slider__title
+    text-align: center
+    margin-top: 6px
+
+  .slider__item.swiper-container
+    height: 544px
+    margin-top: 72px
+
+  .slider__item-slide.swiper-slide
+    height: 256px
+    width: 560px
+
+  .slider__item-slide-photo
+    width: 236px
+
+  .slider__item-slide-content
+    margin: 43px 20px 42px 42px
+
+  .slider__item-slide-price
+    color: $beige
+    font-weight: 600
+    font-size: 20px
+    line-height: 24px
+
+  .slider__item-slide-name
+    color: #232C38
+    font-weight: 700
+    font-size: 24px
+    line-height: 28px
+    margin-top: 8px
+
+  .slider__item-slide-text
+    color: $dark-gray
+    font-weight: 300
+    font-size: 16px
+    line-height: 22px
+    margin-top: 10px
+
+  .slider__item-slide-buttons
+    margin-top: auto
+
+  .slider__item-slide-button
+    border-radius: 19px
+    color: $light-gray2
+    display: inline-block
+    font-size: 16px
+    line-height: 22px
+    min-height: 32px
+    text-decoration: none
+    text-align: center
+    padding: 6px 17px
+
+  .slider__item-slide-button_beige
+    background: $beige
+    min-width: 134px
+
+  .slider__item-slide-button_transparent
+    color: $primary-color
+    padding: 6px 10px
+    margin-left: 15px
+
+  .slider__item-button-prev, .slider__item-button-next
+    align-items: center
+    background-color: $beige
+    border-radius: 50%
+    border: none
+    cursor: pointer
+    display: flex
+    justify-content: center
+    height: 48px
+    position: absolute
+    outline: none
+    top: 50%
+    transform: translateY(-50%)
+    width: 48px
+    z-index: 1
+
+  .slider__item-button-prev
+    left: -57px
+
+    svg
+      transform: rotate(180deg)
+
+  .slider__item-button-next
+    right: -57px

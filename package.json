@@ -11,10 +11,15 @@
     "start": "parcel src/index.html",
     "build-prod": "parcel build src/index.html"
   },
-  "dependencies": {},
+  "dependencies": {
+    "blazy": "^1.8.2",
+    "components": "^0.1.0",
+    "swiper": "^5.4.5"
+  },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4",
     "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11"
+    "@babel/preset-env": "^7.12.11",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.32.8"
   }
 }

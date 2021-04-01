@@ -1,0 +1,133 @@
+.giftset
+  padding: 86px 0 127px
+
+.giftset__subtitle
+  text-align: center
+
+.giftset__title
+  margin-top: 6px
+  text-align: center
+
+.giftset__content
+  display: flex
+  justify-content: flex-end
+  margin-top: 67px
+
+.giftset__wrapper
+  background: #FFFFFF
+  box-shadow: 1px 0px 10px rgba(205, 205, 205, 0.5)
+  border-right: 1px solid $light-gray
+  height: 100%
+  width: 794px
+
+.giftset__tabs
+  display: flex
+  flex-direction: column
+  flex-shrink: 0
+  width: 88px
+
+.giftset__tab
+  align-items: center
+  background: $light-gray
+  color: $primary-color
+  display: flex
+  flex-grow: 1
+  font-weight: 900
+  font-size: 30px
+  font-family: $title-font
+  justify-content: center
+  line-height: 34px
+  text-decoration: none
+  transition: $default-transition
+  opacity: 0.3
+
+.giftset__tab_active
+  background: #FFFFFF
+  opacity: 1
+
+.giftset__slide
+  display: none
+  height: 460px
+  padding: 64px 64px 64px 298px
+  position: relative
+
+.giftset__slide_active
+  display: block
+  animation-name: displayBlock
+  animation-duration: 0.5s
+
+.giftset__slide-content
+  display: flex
+  flex-direction: column
+  height: 100%
+
+.giftset__slide-img
+  position: absolute
+  left: -256px
+  max-height: 100%
+  top: 50%
+  transform: translateY(-50%)
+
+.giftset__slide-price
+  color: $beige
+  font-weight: 600
+  font-size: 20px
+  line-height: 20px
+
+.giftset__slide-name
+  color: #232C38
+  font-weight: 700
+  font-size: 24px
+  line-height: 28px
+  margin-top: 12px
+
+.giftset__slide-text
+  color: $dark-gray
+  font-weight: 300
+  font-size: 16px
+  line-height: 22px
+  margin: 12px 0 24px
+
+.giftset__slide-description
+  display: flex
+  margin-top: auto
+
+.giftset__slide-description-item
+  margin-right: 38px
+  padding: 2px 2px 2px 52px
+  position: relative
+
+  svg
+    position: absolute
+    left: 0
+    top: 50%
+    transform: translateY(-50%)
+
+.giftset__slide-buttons
+  margin-top: 46px
+
+.giftset__slide-button
+  display: inline-block
+  font-weight: 700
+  font-size: 16px
+  line-height: 22px
+  padding: 7px 7px 8px
+  text-decoration: none
+
+.giftset__slide-button_beige
+  background-color: $beige
+  border-radius: 19px
+  color: #F9FBFF
+  text-align: center
+  width: 166px
+
+.giftset__slide-button_transparent
+  color: $primary-color
+  margin-left: 117px
+
+@keyframes displayBlock
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+
