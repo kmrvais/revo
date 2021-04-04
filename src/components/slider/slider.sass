@@ -6,7 +6,8 @@
   padding: 0 20px 20px
 
 .slider__item-slide.swiper-slide
-  box-shadow: 0px 4px 24px rgba(205, 205, 205, 0.5)
+  background-color: #ffffff
+  box-shadow: 0 4px 24px rgba(205, 205, 205, 0.5)
   display: flex
 
 .slider__item-slide-photo
@@ -16,6 +17,8 @@
   width: 150px
 
   img
+    height: 100%
+    object-fit: cover
     width: 100%
 
 .slider__item-slide-content
@@ -53,6 +56,7 @@
   display: inline-block
   font-size: 13px
   line-height: 16px
+  transition: $default-transition
   text-decoration: none
   text-align: center
   padding: 6px 10px
@@ -60,9 +64,16 @@
 .slider__item-slide-button_beige
   background: $beige
 
+  &:hover
+    background: $light-beige
+    color: $primary-color
+
 .slider__item-slide-button_transparent
   color: $primary-color
   margin-left: 5px
+
+  &:hover
+    background: $light-beige
 
 +mq(tablet)
 
@@ -93,12 +104,12 @@
 
     &:after
       background-color: $primary-color
+      bottom: 0
       content: ''
-      height: 100%
       position: absolute
       left: 0
+      right: calc(50% + 316px)
       top: 0
-      width: 377px
 
   .slider__container
     width: 1170px
@@ -180,6 +191,7 @@
     outline: none
     top: 50%
     transform: translateY(-50%)
+    transition: $default-transition
     width: 48px
     z-index: 1
 

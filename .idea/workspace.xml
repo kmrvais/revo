@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c7c9a6f-2ecb-4d21-8a32-cbc7101ac76c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test-revo.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/revo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/revo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Montserrat/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Montserrat/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/common.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/common.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/giftset/giftset.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/giftset/giftset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/giftset/giftset.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/giftset/giftset.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/last-screen/last-screen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/last-screen/last-screen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/last-screen/last-screen.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/last-screen/last-screen.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main-screen/main-screen.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-screen/main-screen.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slider/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slider/slider.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/slider.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../new.dvemorkovki.ru" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../3d-group" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -68,6 +75,9 @@
       <workItem from="1617042207881" duration="4336000" />
       <workItem from="1617128026916" duration="5200000" />
       <workItem from="1617213564756" duration="3617000" />
+      <workItem from="1617301194688" duration="2619000" />
+      <workItem from="1617464797776" duration="2366000" />
+      <workItem from="1617556765550" duration="2584000" />
     </task>
     <servers />
   </component>

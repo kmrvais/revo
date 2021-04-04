@@ -13,6 +13,7 @@ export default () => {
       let activeSlide = document.querySelector('.giftset__slide_active');
       activeSlide.classList.remove('giftset__slide_active');
       let newActiveSlide = document.querySelector(filter).classList.add('giftset__slide_active');
+      bLazy.revalidate();
     }
   })
 

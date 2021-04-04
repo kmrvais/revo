@@ -18,7 +18,15 @@ export default () => {
         spaceBetween: 30,
         slidesPerView: 'auto',
       }
-    }
+    },
+    on: {
+      slideChangeTransitionEnd: function () {
+        bLazy.revalidate()
+      },
+      init: function () {
+        bLazy.revalidate()
+      },
+    },
   });
 
 }

@@ -1,5 +1,16 @@
 .giftset
   padding: 86px 0 127px
+  position: relative
+
+  &:before
+    background: $light-gray
+    bottom: 0
+    content: ''
+    left: 0
+    position: absolute
+    right: calc(50% - 374px)
+    top: 0
+    z-index: -1
 
 .giftset__subtitle
   text-align: center
@@ -43,6 +54,7 @@
 
 .giftset__tab_active
   background: #FFFFFF
+  cursor: default
   opacity: 1
 
 .giftset__slide
@@ -64,9 +76,10 @@
 .giftset__slide-img
   position: absolute
   left: -256px
-  max-height: 100%
+  height: 100%
   top: 50%
   transform: translateY(-50%)
+  width: 490px
 
 .giftset__slide-price
   color: $beige
@@ -107,23 +120,31 @@
   margin-top: 46px
 
 .giftset__slide-button
+  border-radius: 19px
   display: inline-block
   font-weight: 700
   font-size: 16px
   line-height: 22px
   padding: 7px 7px 8px
   text-decoration: none
+  transition: $default-transition
 
 .giftset__slide-button_beige
   background-color: $beige
-  border-radius: 19px
   color: #F9FBFF
   text-align: center
   width: 166px
 
+  &:hover
+    background: $light-beige
+    color: $primary-color
+
 .giftset__slide-button_transparent
   color: $primary-color
   margin-left: 117px
+
+  &:hover
+    background: $light-beige
 
 @keyframes displayBlock
   0%

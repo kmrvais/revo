@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
     <title>Empty project</title>
-    <meta charset="utf-8">
+    <meta charset="utf-8"
+          name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body class="page">
 <div class="main-screen" id="main-screen">
     <div class="container main-screen__container">
         <div class="main-screen__left">
             <a href="#" class="main-screen__logo">
-                <img src="/img/revo-logo.png"
+                <img alt="photo" class="b-lazy animate"
+                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                     data-src="/img/revo-logo.png"
                      alt="revo">
             </a>
             <h1 class="main-screen__title">
@@ -18,25 +22,29 @@
                 <span>COFFEE</span>
             </h1>
         </div>
-        <div class="main-screen__center">
+        <div class="main-screen__center b-lazy animate" data-src="img/background.jpg">
             <a class="main-screen__video-button">
                 <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5456 7L0.776362 13.75V0.25L11.5456 7Z" fill="#C7A17A"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5456 7L0.776362 13.75V0.25L11.5456 7Z"
+                          fill="#C7A17A"/>
                 </svg>
             </a>
         </div>
         <div class="main-screen__menu-wrapper">
             <a class="main-screen__basket" href="#">
                 <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.45053 1.66388H14.8221C14.8623 1.66388 14.8991 1.67932 14.9368 1.69091L15.2655 0.589594C15.37 0.239363 15.6868 0 16.0458 0H17.6775C17.9028 0 18.0854 0.186249 18.0854 0.41598V1.2479C18.0854 1.47763 17.9028 1.66388 17.6775 1.66388H16.6501L14.1014 10.2046L15.0533 11.337C15.4295 11.7846 15.5989 12.4013 15.4258 12.9637C15.2043 13.683 14.5817 14.1429 13.864 14.1429H2.17635C1.95106 14.1429 1.76841 13.9566 1.76841 13.7269V12.895C1.76841 12.6652 1.95106 12.479 2.17635 12.479H13.864L12.5709 10.9406C12.5384 10.9019 12.5145 10.8583 12.4898 10.8151H4.58486C3.95258 10.8151 3.37722 10.4428 3.10799 9.8594L0.261404 3.69125C0.179756 3.51374 0.136732 3.31673 0.136732 3.12131V3.0035C0.136732 2.26369 0.724947 1.66388 1.45053 1.66388Z" fill="#F9FBFF"/>
-                    <path d="M13.2777 18.0001C12.3927 18.0001 11.6752 17.2805 11.6752 16.3929C11.6752 15.5053 12.3927 14.7858 13.2777 14.7858C14.1628 14.7858 14.8803 15.5053 14.8803 16.3929C14.8803 17.2805 14.1628 18.0001 13.2777 18.0001Z" fill="white"/>
-                    <path d="M3.66239 18.0001C2.77732 18.0001 2.05983 17.2805 2.05983 16.3929C2.05983 15.5053 2.77732 14.7858 3.66239 14.7858C4.54746 14.7858 5.26495 15.5053 5.26495 16.3929C5.26495 17.2805 4.54746 18.0001 3.66239 18.0001Z" fill="white"/>
+                    <path d="M1.45053 1.66388H14.8221C14.8623 1.66388 14.8991 1.67932 14.9368 1.69091L15.2655 0.589594C15.37 0.239363 15.6868 0 16.0458 0H17.6775C17.9028 0 18.0854 0.186249 18.0854 0.41598V1.2479C18.0854 1.47763 17.9028 1.66388 17.6775 1.66388H16.6501L14.1014 10.2046L15.0533 11.337C15.4295 11.7846 15.5989 12.4013 15.4258 12.9637C15.2043 13.683 14.5817 14.1429 13.864 14.1429H2.17635C1.95106 14.1429 1.76841 13.9566 1.76841 13.7269V12.895C1.76841 12.6652 1.95106 12.479 2.17635 12.479H13.864L12.5709 10.9406C12.5384 10.9019 12.5145 10.8583 12.4898 10.8151H4.58486C3.95258 10.8151 3.37722 10.4428 3.10799 9.8594L0.261404 3.69125C0.179756 3.51374 0.136732 3.31673 0.136732 3.12131V3.0035C0.136732 2.26369 0.724947 1.66388 1.45053 1.66388Z"
+                          fill="#F9FBFF"/>
+                    <path d="M13.2777 18.0001C12.3927 18.0001 11.6752 17.2805 11.6752 16.3929C11.6752 15.5053 12.3927 14.7858 13.2777 14.7858C14.1628 14.7858 14.8803 15.5053 14.8803 16.3929C14.8803 17.2805 14.1628 18.0001 13.2777 18.0001Z"
+                          fill="white"/>
+                    <path d="M3.66239 18.0001C2.77732 18.0001 2.05983 17.2805 2.05983 16.3929C2.05983 15.5053 2.77732 14.7858 3.66239 14.7858C4.54746 14.7858 5.26495 15.5053 5.26495 16.3929C5.26495 17.2805 4.54746 18.0001 3.66239 18.0001Z"
+                          fill="white"/>
                 </svg>
                 <div class="main-screen__basket-quantity"><span>2</span></div>
             </a>
             <ul class="main-screen__menu">
                 <li class="main-screen__menu-item">
-                    <a class="main-screen__menu-item-link" href="#">TRANG CHỦ</a>
+                    <a class="main-screen__menu-item-link main-screen__menu-item-link_active" href="#">TRANG CHỦ</a>
                 </li>
                 <li class="main-screen__menu-item">
                     <a class="main-screen__menu-item-link" href="#">COFFEE</a>
@@ -162,7 +170,9 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide slider__item-slide">
                     <div class="slider__item-slide-photo">
-                        <img src="/img/img-1.jpg">
+                        <img alt="photo" class="b-lazy animate"
+                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                             data-src="/img/img-1.jpg">
                     </div>
                     <div class="slider__item-slide-content">
                         <div class="slider__item-slide-price">
@@ -186,7 +196,9 @@
                 </div>
                 <div class="swiper-slide slider__item-slide">
                     <div class="slider__item-slide-photo">
-                        <img src="/img/img-1.jpg">
+                        <img alt="photo" class="b-lazy animate"
+                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                             data-src="/img/img-2.jpg">
                     </div>
                     <div class="slider__item-slide-content">
                         <div class="slider__item-slide-price">
@@ -209,8 +221,10 @@
                     </div>
                 </div>
                 <div class="swiper-slide slider__item-slide">
-                    <div class="slider__item-slide-photo b-lazy"
-                         data-src="/img/img-1.jpg">
+                    <div class="slider__item-slide-photo">
+                        <img alt="photo" class="b-lazy animate"
+                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                             data-src="/img/img-3.jpg">
                     </div>
                     <div class="slider__item-slide-content">
                         <div class="slider__item-slide-price">
@@ -233,8 +247,10 @@
                     </div>
                 </div>
                 <div class="swiper-slide slider__item-slide">
-                    <div class="slider__item-slide-photo b-lazy"
-                         data-src="/img/img-1.jpg">
+                    <div class="slider__item-slide-photo">
+                        <img alt="photo" class="b-lazy animate"
+                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                             data-src="/img/img-4.jpg">
                     </div>
                     <div class="slider__item-slide-content">
                         <div class="slider__item-slide-price">
@@ -257,8 +273,10 @@
                     </div>
                 </div>
                 <div class="swiper-slide slider__item-slide">
-                    <div class="slider__item-slide-photo b-lazy"
-                         data-src="/img/img-1.jpg">
+                    <div class="slider__item-slide-photo">
+                        <img alt="photo" class="b-lazy animate"
+                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                             data-src="/img/img-5.jpg">
                     </div>
                     <div class="slider__item-slide-content">
                         <div class="slider__item-slide-price">
@@ -281,8 +299,10 @@
                     </div>
                 </div>
                 <div class="swiper-slide slider__item-slide">
-                    <div class="slider__item-slide-photo b-lazy"
-                         data-src="/img/img-1.jpg">
+                    <div class="slider__item-slide-photo">
+                        <img alt="photo" class="b-lazy animate"
+                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                             data-src="/img/img-6.jpg">
                     </div>
                     <div class="slider__item-slide-content">
                         <div class="slider__item-slide-price">
@@ -305,8 +325,10 @@
                     </div>
                 </div>
                 <div class="swiper-slide slider__item-slide">
-                    <div class="slider__item-slide-photo b-lazy"
-                         data-src="/img/img-1.jpg">
+                    <div class="slider__item-slide-photo">
+                        <img alt="photo" class="b-lazy animate"
+                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                             data-src="/img/img-1.jpg">
                     </div>
                     <div class="slider__item-slide-content">
                         <div class="slider__item-slide-price">
@@ -329,8 +351,10 @@
                     </div>
                 </div>
                 <div class="swiper-slide slider__item-slide">
-                    <div class="slider__item-slide-photo b-lazy"
-                         data-src="/img/img-1.jpg">
+                    <div class="slider__item-slide-photo">
+                        <img alt="photo" class="b-lazy animate"
+                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                             data-src="/img/img-1.jpg">
                     </div>
                     <div class="slider__item-slide-content">
                         <div class="slider__item-slide-price">
@@ -355,12 +379,14 @@
             </div>
             <div class="slider__item-button-prev">
                 <svg width="24" height="17" viewBox="0 0 24 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M16.1613 0.255668C15.8344 -0.0852227 15.2902 -0.0852227 14.9518 0.255668C14.6248 0.585042 14.6248 1.13323 14.9518 1.46184L21.0848 7.6401H0.846745C0.374976 7.64086 0 8.01861 0 8.49386C0 8.96911 0.374976 9.35914 0.846745 9.35914H21.0848L14.9518 15.5259C14.6248 15.8668 14.6248 16.4157 14.9518 16.7443C15.2902 17.0852 15.8351 17.0852 16.1613 16.7443L23.7462 9.10347C24.0846 8.77409 24.0846 8.22591 23.7462 7.8973L16.1613 0.255668Z" fill="#F9FBFF"/>
+                    <path d="M16.1613 0.255668C15.8344 -0.0852227 15.2902 -0.0852227 14.9518 0.255668C14.6248 0.585042 14.6248 1.13323 14.9518 1.46184L21.0848 7.6401H0.846745C0.374976 7.64086 0 8.01861 0 8.49386C0 8.96911 0.374976 9.35914 0.846745 9.35914H21.0848L14.9518 15.5259C14.6248 15.8668 14.6248 16.4157 14.9518 16.7443C15.2902 17.0852 15.8351 17.0852 16.1613 16.7443L23.7462 9.10347C24.0846 8.77409 24.0846 8.22591 23.7462 7.8973L16.1613 0.255668Z"
+                          fill="#F9FBFF"/>
                 </svg>
             </div>
             <div class="slider__item-button-next">
                 <svg width="24" height="17" viewBox="0 0 24 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M16.1613 0.255668C15.8344 -0.0852227 15.2902 -0.0852227 14.9518 0.255668C14.6248 0.585042 14.6248 1.13323 14.9518 1.46184L21.0848 7.6401H0.846745C0.374976 7.64086 0 8.01861 0 8.49386C0 8.96911 0.374976 9.35914 0.846745 9.35914H21.0848L14.9518 15.5259C14.6248 15.8668 14.6248 16.4157 14.9518 16.7443C15.2902 17.0852 15.8351 17.0852 16.1613 16.7443L23.7462 9.10347C24.0846 8.77409 24.0846 8.22591 23.7462 7.8973L16.1613 0.255668Z" fill="#F9FBFF"/>
+                    <path d="M16.1613 0.255668C15.8344 -0.0852227 15.2902 -0.0852227 14.9518 0.255668C14.6248 0.585042 14.6248 1.13323 14.9518 1.46184L21.0848 7.6401H0.846745C0.374976 7.64086 0 8.01861 0 8.49386C0 8.96911 0.374976 9.35914 0.846745 9.35914H21.0848L14.9518 15.5259C14.6248 15.8668 14.6248 16.4157 14.9518 16.7443C15.2902 17.0852 15.8351 17.0852 16.1613 16.7443L23.7462 9.10347C24.0846 8.77409 24.0846 8.22591 23.7462 7.8973L16.1613 0.255668Z"
+                          fill="#F9FBFF"/>
                 </svg>
             </div>
         </div>
@@ -381,17 +407,24 @@
                         <div class="giftset__slide-price">285.000</div>
                         <div class="giftset__slide-name">Giftset "Cà phê phin Việt Nam"</div>
                         <div class="giftset__slide-text">
-                            Món quà tuyệt vời dành cho người sành cà phê. Hạt cà phê được Revo cẩn trọng chọn lựa, rang xay
-                            theo công nghệ và bí quyết học hỏi từ những nghệ nhân nổi tiếng, cùng với tình yêu, sự đam mê
+                            Món quà tuyệt vời dành cho người sành cà phê. Hạt cà phê được Revo cẩn trọng chọn lựa, rang
+                            xay
+                            theo công nghệ và bí quyết học hỏi từ những nghệ nhân nổi tiếng, cùng với tình yêu, sự đam
+                            mê
                             của người làm cà phê… tạo ra những tách cà phê tinh khiết chỉ dành riêng cho bạn.
                         </div>
                         <div class="giftset__slide-description">
                             <div class="giftset__slide-description-item">
-                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M15.9947 24.9842C13.7456 21.1554 13.7403 17.175 13.9689 15.3229C8.6998 17.8303 5.54683 23.2134 7.66831 28.0386C10.1673 28.2877 13.6712 27.5296 15.9947 24.9842Z" fill="#415167"/>
-                                    <path d="M16.5742 25.9104C14.5219 28.0875 10.9967 29.3168 8.30634 29.1543C10.7628 32.7015 17.2973 34.2612 23.1832 30.8386C20.663 30.2266 18.2863 28.4395 16.5742 25.9104Z" fill="#415167"/>
-                                    <path d="M22.7313 17.9603C19.2114 14.0611 18.919 10.3406 19.4029 7.89819C15.766 9.98319 13.9902 15.3284 15.4151 20.7764C17.0049 27.0043 22.6568 31.7159 27.9579 29.3438C28.1227 27.5946 27.9047 23.6683 22.7313 17.9603Z" fill="#415167"/>
-                                    <path d="M32.5251 16.1894C30.9088 9.98314 25.512 5.69401 20.5992 7.35117C19.8814 9.68528 19.9824 13.4383 23.5341 17.2617C25.1452 19.1571 29.1276 23.6466 29.0531 28.7318C32.3178 26.4356 33.8437 21.3667 32.5251 16.1894Z" fill="#415167"/>
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.9947 24.9842C13.7456 21.1554 13.7403 17.175 13.9689 15.3229C8.6998 17.8303 5.54683 23.2134 7.66831 28.0386C10.1673 28.2877 13.6712 27.5296 15.9947 24.9842Z"
+                                          fill="#415167"/>
+                                    <path d="M16.5742 25.9104C14.5219 28.0875 10.9967 29.3168 8.30634 29.1543C10.7628 32.7015 17.2973 34.2612 23.1832 30.8386C20.663 30.2266 18.2863 28.4395 16.5742 25.9104Z"
+                                          fill="#415167"/>
+                                    <path d="M22.7313 17.9603C19.2114 14.0611 18.919 10.3406 19.4029 7.89819C15.766 9.98319 13.9902 15.3284 15.4151 20.7764C17.0049 27.0043 22.6568 31.7159 27.9579 29.3438C28.1227 27.5946 27.9047 23.6683 22.7313 17.9603Z"
+                                          fill="#415167"/>
+                                    <path d="M32.5251 16.1894C30.9088 9.98314 25.512 5.69401 20.5992 7.35117C19.8814 9.68528 19.9824 13.4383 23.5341 17.2617C25.1452 19.1571 29.1276 23.6466 29.0531 28.7318C32.3178 26.4356 33.8437 21.3667 32.5251 16.1894Z"
+                                          fill="#415167"/>
                                 </svg>
                                 <div class="giftset__slide-description-item-title">
                                     Loại hạt
@@ -401,11 +434,16 @@
                                 </div>
                             </div>
                             <div class="giftset__slide-description-item">
-                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M19.0193 7.39404C18.8589 7.11733 18.5115 6.98246 18.2456 6.95483C17.9273 6.96003 17.6374 7.13811 17.4864 7.4209L14.375 13.2455L16.0068 15.1161L17.5155 12.683C17.8364 12.1659 18.6838 12.1659 19.0047 12.683L20.5135 15.1161L22.2852 13.0375L19.0193 7.39404Z" fill="#415167"/>
-                                    <path d="M23.75 15.5962L23.2335 14.7021L21.152 17.2304C20.9802 17.4679 20.7313 17.623 20.4102 17.5927C20.1192 17.5823 19.8522 17.4262 19.6977 17.1767L18.2451 14.8305L16.7925 17.1767C16.638 17.4263 16.371 17.5823 16.08 17.5927C16.0689 17.5936 16.0577 17.5936 16.0474 17.5936C15.7675 17.5936 15.504 17.4592 15.3382 17.2304L13.4435 14.9614L5.10463 30.4857C4.95869 30.7604 4.96555 31.0933 5.12438 31.361C5.2832 31.6297 5.56996 31.7935 5.879 31.7935H15.7786C15.5262 31.0756 15.5704 30.2742 15.9485 29.5982L23.75 15.5962Z" fill="#415167"/>
-                                    <path d="M26.9508 16.3034C26.6387 15.7454 25.7246 15.7454 25.4124 16.3034L23.5742 19.5865L26.1816 22.4494L28.7891 19.5865L26.9508 16.3034Z" fill="#415167"/>
-                                    <path d="M34.8866 30.4724L29.6612 21.2075L26.8278 24.383C26.6605 24.5847 26.4133 24.7016 26.1524 24.7016C25.8915 24.7016 25.6443 24.5847 25.4769 24.383L22.6436 21.2075L17.4767 30.4725C17.3231 30.7469 17.3257 31.0828 17.4836 31.3547C17.6415 31.6265 17.9298 31.7935 18.2422 31.7935H34.121C34.4334 31.7935 34.7218 31.6265 34.8797 31.3546C35.0376 31.0827 35.0402 30.7469 34.8866 30.4724Z" fill="#415167"/>
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19.0193 7.39404C18.8589 7.11733 18.5115 6.98246 18.2456 6.95483C17.9273 6.96003 17.6374 7.13811 17.4864 7.4209L14.375 13.2455L16.0068 15.1161L17.5155 12.683C17.8364 12.1659 18.6838 12.1659 19.0047 12.683L20.5135 15.1161L22.2852 13.0375L19.0193 7.39404Z"
+                                          fill="#415167"/>
+                                    <path d="M23.75 15.5962L23.2335 14.7021L21.152 17.2304C20.9802 17.4679 20.7313 17.623 20.4102 17.5927C20.1192 17.5823 19.8522 17.4262 19.6977 17.1767L18.2451 14.8305L16.7925 17.1767C16.638 17.4263 16.371 17.5823 16.08 17.5927C16.0689 17.5936 16.0577 17.5936 16.0474 17.5936C15.7675 17.5936 15.504 17.4592 15.3382 17.2304L13.4435 14.9614L5.10463 30.4857C4.95869 30.7604 4.96555 31.0933 5.12438 31.361C5.2832 31.6297 5.56996 31.7935 5.879 31.7935H15.7786C15.5262 31.0756 15.5704 30.2742 15.9485 29.5982L23.75 15.5962Z"
+                                          fill="#415167"/>
+                                    <path d="M26.9508 16.3034C26.6387 15.7454 25.7246 15.7454 25.4124 16.3034L23.5742 19.5865L26.1816 22.4494L28.7891 19.5865L26.9508 16.3034Z"
+                                          fill="#415167"/>
+                                    <path d="M34.8866 30.4724L29.6612 21.2075L26.8278 24.383C26.6605 24.5847 26.4133 24.7016 26.1524 24.7016C25.8915 24.7016 25.6443 24.5847 25.4769 24.383L22.6436 21.2075L17.4767 30.4725C17.3231 30.7469 17.3257 31.0828 17.4836 31.3547C17.6415 31.6265 17.9298 31.7935 18.2422 31.7935H34.121C34.4334 31.7935 34.7218 31.6265 34.8797 31.3546C35.0376 31.0827 35.0402 30.7469 34.8866 30.4724Z"
+                                          fill="#415167"/>
                                 </svg>
                                 <div class="giftset__slide-description-item-title">
                                     Độ cao
@@ -420,24 +458,33 @@
                             <a class="giftset__slide-button giftset__slide-button_transparent" href="#">CHI TIẾT</a>
                         </div>
                     </div>
-                    <img class="giftset__slide-img" src="img/giftset.png">
+                    <img alt="photo" class="giftset__slide-img b-lazy animate"
+                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                         data-src="img/giftset.png">
                 </div>
                 <div class="giftset__slide" id="tab2">
                     <div class="giftset__slide-content">
                         <div class="giftset__slide-price">285.000</div>
                         <div class="giftset__slide-name">Giftset "Cà phê phin Việt Nam"</div>
                         <div class="giftset__slide-text">
-                            Món quà tuyệt vời dành cho người sành cà phê. Hạt cà phê được Revo cẩn trọng chọn lựa, rang xay
-                            theo công nghệ và bí quyết học hỏi từ những nghệ nhân nổi tiếng, cùng với tình yêu, sự đam mê
+                            Món quà tuyệt vời dành cho người sành cà phê. Hạt cà phê được Revo cẩn trọng chọn lựa, rang
+                            xay
+                            theo công nghệ và bí quyết học hỏi từ những nghệ nhân nổi tiếng, cùng với tình yêu, sự đam
+                            mê
                             của người làm cà phê… tạo ra những tách cà phê tinh khiết chỉ dành riêng cho bạn.
                         </div>
                         <div class="giftset__slide-description">
                             <div class="giftset__slide-description-item">
-                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M15.9947 24.9842C13.7456 21.1554 13.7403 17.175 13.9689 15.3229C8.6998 17.8303 5.54683 23.2134 7.66831 28.0386C10.1673 28.2877 13.6712 27.5296 15.9947 24.9842Z" fill="#415167"/>
-                                    <path d="M16.5742 25.9104C14.5219 28.0875 10.9967 29.3168 8.30634 29.1543C10.7628 32.7015 17.2973 34.2612 23.1832 30.8386C20.663 30.2266 18.2863 28.4395 16.5742 25.9104Z" fill="#415167"/>
-                                    <path d="M22.7313 17.9603C19.2114 14.0611 18.919 10.3406 19.4029 7.89819C15.766 9.98319 13.9902 15.3284 15.4151 20.7764C17.0049 27.0043 22.6568 31.7159 27.9579 29.3438C28.1227 27.5946 27.9047 23.6683 22.7313 17.9603Z" fill="#415167"/>
-                                    <path d="M32.5251 16.1894C30.9088 9.98314 25.512 5.69401 20.5992 7.35117C19.8814 9.68528 19.9824 13.4383 23.5341 17.2617C25.1452 19.1571 29.1276 23.6466 29.0531 28.7318C32.3178 26.4356 33.8437 21.3667 32.5251 16.1894Z" fill="#415167"/>
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.9947 24.9842C13.7456 21.1554 13.7403 17.175 13.9689 15.3229C8.6998 17.8303 5.54683 23.2134 7.66831 28.0386C10.1673 28.2877 13.6712 27.5296 15.9947 24.9842Z"
+                                          fill="#415167"/>
+                                    <path d="M16.5742 25.9104C14.5219 28.0875 10.9967 29.3168 8.30634 29.1543C10.7628 32.7015 17.2973 34.2612 23.1832 30.8386C20.663 30.2266 18.2863 28.4395 16.5742 25.9104Z"
+                                          fill="#415167"/>
+                                    <path d="M22.7313 17.9603C19.2114 14.0611 18.919 10.3406 19.4029 7.89819C15.766 9.98319 13.9902 15.3284 15.4151 20.7764C17.0049 27.0043 22.6568 31.7159 27.9579 29.3438C28.1227 27.5946 27.9047 23.6683 22.7313 17.9603Z"
+                                          fill="#415167"/>
+                                    <path d="M32.5251 16.1894C30.9088 9.98314 25.512 5.69401 20.5992 7.35117C19.8814 9.68528 19.9824 13.4383 23.5341 17.2617C25.1452 19.1571 29.1276 23.6466 29.0531 28.7318C32.3178 26.4356 33.8437 21.3667 32.5251 16.1894Z"
+                                          fill="#415167"/>
                                 </svg>
                                 <div class="giftset__slide-description-item-title">
                                     Loại hạt
@@ -447,11 +494,16 @@
                                 </div>
                             </div>
                             <div class="giftset__slide-description-item">
-                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M19.0193 7.39404C18.8589 7.11733 18.5115 6.98246 18.2456 6.95483C17.9273 6.96003 17.6374 7.13811 17.4864 7.4209L14.375 13.2455L16.0068 15.1161L17.5155 12.683C17.8364 12.1659 18.6838 12.1659 19.0047 12.683L20.5135 15.1161L22.2852 13.0375L19.0193 7.39404Z" fill="#415167"/>
-                                    <path d="M23.75 15.5962L23.2335 14.7021L21.152 17.2304C20.9802 17.4679 20.7313 17.623 20.4102 17.5927C20.1192 17.5823 19.8522 17.4262 19.6977 17.1767L18.2451 14.8305L16.7925 17.1767C16.638 17.4263 16.371 17.5823 16.08 17.5927C16.0689 17.5936 16.0577 17.5936 16.0474 17.5936C15.7675 17.5936 15.504 17.4592 15.3382 17.2304L13.4435 14.9614L5.10463 30.4857C4.95869 30.7604 4.96555 31.0933 5.12438 31.361C5.2832 31.6297 5.56996 31.7935 5.879 31.7935H15.7786C15.5262 31.0756 15.5704 30.2742 15.9485 29.5982L23.75 15.5962Z" fill="#415167"/>
-                                    <path d="M26.9508 16.3034C26.6387 15.7454 25.7246 15.7454 25.4124 16.3034L23.5742 19.5865L26.1816 22.4494L28.7891 19.5865L26.9508 16.3034Z" fill="#415167"/>
-                                    <path d="M34.8866 30.4724L29.6612 21.2075L26.8278 24.383C26.6605 24.5847 26.4133 24.7016 26.1524 24.7016C25.8915 24.7016 25.6443 24.5847 25.4769 24.383L22.6436 21.2075L17.4767 30.4725C17.3231 30.7469 17.3257 31.0828 17.4836 31.3547C17.6415 31.6265 17.9298 31.7935 18.2422 31.7935H34.121C34.4334 31.7935 34.7218 31.6265 34.8797 31.3546C35.0376 31.0827 35.0402 30.7469 34.8866 30.4724Z" fill="#415167"/>
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19.0193 7.39404C18.8589 7.11733 18.5115 6.98246 18.2456 6.95483C17.9273 6.96003 17.6374 7.13811 17.4864 7.4209L14.375 13.2455L16.0068 15.1161L17.5155 12.683C17.8364 12.1659 18.6838 12.1659 19.0047 12.683L20.5135 15.1161L22.2852 13.0375L19.0193 7.39404Z"
+                                          fill="#415167"/>
+                                    <path d="M23.75 15.5962L23.2335 14.7021L21.152 17.2304C20.9802 17.4679 20.7313 17.623 20.4102 17.5927C20.1192 17.5823 19.8522 17.4262 19.6977 17.1767L18.2451 14.8305L16.7925 17.1767C16.638 17.4263 16.371 17.5823 16.08 17.5927C16.0689 17.5936 16.0577 17.5936 16.0474 17.5936C15.7675 17.5936 15.504 17.4592 15.3382 17.2304L13.4435 14.9614L5.10463 30.4857C4.95869 30.7604 4.96555 31.0933 5.12438 31.361C5.2832 31.6297 5.56996 31.7935 5.879 31.7935H15.7786C15.5262 31.0756 15.5704 30.2742 15.9485 29.5982L23.75 15.5962Z"
+                                          fill="#415167"/>
+                                    <path d="M26.9508 16.3034C26.6387 15.7454 25.7246 15.7454 25.4124 16.3034L23.5742 19.5865L26.1816 22.4494L28.7891 19.5865L26.9508 16.3034Z"
+                                          fill="#415167"/>
+                                    <path d="M34.8866 30.4724L29.6612 21.2075L26.8278 24.383C26.6605 24.5847 26.4133 24.7016 26.1524 24.7016C25.8915 24.7016 25.6443 24.5847 25.4769 24.383L22.6436 21.2075L17.4767 30.4725C17.3231 30.7469 17.3257 31.0828 17.4836 31.3547C17.6415 31.6265 17.9298 31.7935 18.2422 31.7935H34.121C34.4334 31.7935 34.7218 31.6265 34.8797 31.3546C35.0376 31.0827 35.0402 30.7469 34.8866 30.4724Z"
+                                          fill="#415167"/>
                                 </svg>
                                 <div class="giftset__slide-description-item-title">
                                     Độ cao
@@ -466,23 +518,32 @@
                             <a class="giftset__slide-button giftset__slide-button_transparent" href="#">CHI TIẾT</a>
                         </div>
                     </div>
-                    <img class="giftset__slide-img" src="img/giftset.png">
+                    <img alt="photo" class="giftset__slide-img b-lazy animate"
+                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                         data-src="img/giftset.png">
                 </div>
                 <div class="giftset__slide" id="tab3">
                     <div class="giftset__slide-content">
                         <div class="giftset__slide-price">285.000</div>
                         <div class="giftset__slide-name">Giftset "Cà phê phin Việt Nam"</div>
                         <div class="giftset__slide-text">
-                            Món quà tuyệt vời dành cho người sành cà phê. Hạt cà phê được Revo cẩn trọng chọn lựa, rang xay
-                            theo công nghệ và bí quyết học hỏi từ những nghệ nhân nổi tiếng, cùng với tình yêu, sự đam mê
+                            Món quà tuyệt vời dành cho người sành cà phê. Hạt cà phê được Revo cẩn trọng chọn lựa, rang
+                            xay
+                            theo công nghệ và bí quyết học hỏi từ những nghệ nhân nổi tiếng, cùng với tình yêu, sự đam
+                            mê
                         </div>
                         <div class="giftset__slide-description">
                             <div class="giftset__slide-description-item">
-                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M15.9947 24.9842C13.7456 21.1554 13.7403 17.175 13.9689 15.3229C8.6998 17.8303 5.54683 23.2134 7.66831 28.0386C10.1673 28.2877 13.6712 27.5296 15.9947 24.9842Z" fill="#415167"/>
-                                    <path d="M16.5742 25.9104C14.5219 28.0875 10.9967 29.3168 8.30634 29.1543C10.7628 32.7015 17.2973 34.2612 23.1832 30.8386C20.663 30.2266 18.2863 28.4395 16.5742 25.9104Z" fill="#415167"/>
-                                    <path d="M22.7313 17.9603C19.2114 14.0611 18.919 10.3406 19.4029 7.89819C15.766 9.98319 13.9902 15.3284 15.4151 20.7764C17.0049 27.0043 22.6568 31.7159 27.9579 29.3438C28.1227 27.5946 27.9047 23.6683 22.7313 17.9603Z" fill="#415167"/>
-                                    <path d="M32.5251 16.1894C30.9088 9.98314 25.512 5.69401 20.5992 7.35117C19.8814 9.68528 19.9824 13.4383 23.5341 17.2617C25.1452 19.1571 29.1276 23.6466 29.0531 28.7318C32.3178 26.4356 33.8437 21.3667 32.5251 16.1894Z" fill="#415167"/>
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.9947 24.9842C13.7456 21.1554 13.7403 17.175 13.9689 15.3229C8.6998 17.8303 5.54683 23.2134 7.66831 28.0386C10.1673 28.2877 13.6712 27.5296 15.9947 24.9842Z"
+                                          fill="#415167"/>
+                                    <path d="M16.5742 25.9104C14.5219 28.0875 10.9967 29.3168 8.30634 29.1543C10.7628 32.7015 17.2973 34.2612 23.1832 30.8386C20.663 30.2266 18.2863 28.4395 16.5742 25.9104Z"
+                                          fill="#415167"/>
+                                    <path d="M22.7313 17.9603C19.2114 14.0611 18.919 10.3406 19.4029 7.89819C15.766 9.98319 13.9902 15.3284 15.4151 20.7764C17.0049 27.0043 22.6568 31.7159 27.9579 29.3438C28.1227 27.5946 27.9047 23.6683 22.7313 17.9603Z"
+                                          fill="#415167"/>
+                                    <path d="M32.5251 16.1894C30.9088 9.98314 25.512 5.69401 20.5992 7.35117C19.8814 9.68528 19.9824 13.4383 23.5341 17.2617C25.1452 19.1571 29.1276 23.6466 29.0531 28.7318C32.3178 26.4356 33.8437 21.3667 32.5251 16.1894Z"
+                                          fill="#415167"/>
                                 </svg>
                                 <div class="giftset__slide-description-item-title">
                                     Loại hạt
@@ -492,11 +553,16 @@
                                 </div>
                             </div>
                             <div class="giftset__slide-description-item">
-                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M19.0193 7.39404C18.8589 7.11733 18.5115 6.98246 18.2456 6.95483C17.9273 6.96003 17.6374 7.13811 17.4864 7.4209L14.375 13.2455L16.0068 15.1161L17.5155 12.683C17.8364 12.1659 18.6838 12.1659 19.0047 12.683L20.5135 15.1161L22.2852 13.0375L19.0193 7.39404Z" fill="#415167"/>
-                                    <path d="M23.75 15.5962L23.2335 14.7021L21.152 17.2304C20.9802 17.4679 20.7313 17.623 20.4102 17.5927C20.1192 17.5823 19.8522 17.4262 19.6977 17.1767L18.2451 14.8305L16.7925 17.1767C16.638 17.4263 16.371 17.5823 16.08 17.5927C16.0689 17.5936 16.0577 17.5936 16.0474 17.5936C15.7675 17.5936 15.504 17.4592 15.3382 17.2304L13.4435 14.9614L5.10463 30.4857C4.95869 30.7604 4.96555 31.0933 5.12438 31.361C5.2832 31.6297 5.56996 31.7935 5.879 31.7935H15.7786C15.5262 31.0756 15.5704 30.2742 15.9485 29.5982L23.75 15.5962Z" fill="#415167"/>
-                                    <path d="M26.9508 16.3034C26.6387 15.7454 25.7246 15.7454 25.4124 16.3034L23.5742 19.5865L26.1816 22.4494L28.7891 19.5865L26.9508 16.3034Z" fill="#415167"/>
-                                    <path d="M34.8866 30.4724L29.6612 21.2075L26.8278 24.383C26.6605 24.5847 26.4133 24.7016 26.1524 24.7016C25.8915 24.7016 25.6443 24.5847 25.4769 24.383L22.6436 21.2075L17.4767 30.4725C17.3231 30.7469 17.3257 31.0828 17.4836 31.3547C17.6415 31.6265 17.9298 31.7935 18.2422 31.7935H34.121C34.4334 31.7935 34.7218 31.6265 34.8797 31.3546C35.0376 31.0827 35.0402 30.7469 34.8866 30.4724Z" fill="#415167"/>
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19.0193 7.39404C18.8589 7.11733 18.5115 6.98246 18.2456 6.95483C17.9273 6.96003 17.6374 7.13811 17.4864 7.4209L14.375 13.2455L16.0068 15.1161L17.5155 12.683C17.8364 12.1659 18.6838 12.1659 19.0047 12.683L20.5135 15.1161L22.2852 13.0375L19.0193 7.39404Z"
+                                          fill="#415167"/>
+                                    <path d="M23.75 15.5962L23.2335 14.7021L21.152 17.2304C20.9802 17.4679 20.7313 17.623 20.4102 17.5927C20.1192 17.5823 19.8522 17.4262 19.6977 17.1767L18.2451 14.8305L16.7925 17.1767C16.638 17.4263 16.371 17.5823 16.08 17.5927C16.0689 17.5936 16.0577 17.5936 16.0474 17.5936C15.7675 17.5936 15.504 17.4592 15.3382 17.2304L13.4435 14.9614L5.10463 30.4857C4.95869 30.7604 4.96555 31.0933 5.12438 31.361C5.2832 31.6297 5.56996 31.7935 5.879 31.7935H15.7786C15.5262 31.0756 15.5704 30.2742 15.9485 29.5982L23.75 15.5962Z"
+                                          fill="#415167"/>
+                                    <path d="M26.9508 16.3034C26.6387 15.7454 25.7246 15.7454 25.4124 16.3034L23.5742 19.5865L26.1816 22.4494L28.7891 19.5865L26.9508 16.3034Z"
+                                          fill="#415167"/>
+                                    <path d="M34.8866 30.4724L29.6612 21.2075L26.8278 24.383C26.6605 24.5847 26.4133 24.7016 26.1524 24.7016C25.8915 24.7016 25.6443 24.5847 25.4769 24.383L22.6436 21.2075L17.4767 30.4725C17.3231 30.7469 17.3257 31.0828 17.4836 31.3547C17.6415 31.6265 17.9298 31.7935 18.2422 31.7935H34.121C34.4334 31.7935 34.7218 31.6265 34.8797 31.3546C35.0376 31.0827 35.0402 30.7469 34.8866 30.4724Z"
+                                          fill="#415167"/>
                                 </svg>
                                 <div class="giftset__slide-description-item-title">
                                     Độ cao
@@ -511,7 +577,9 @@
                             <a class="giftset__slide-button giftset__slide-button_transparent" href="#">CHI TIẾT</a>
                         </div>
                     </div>
-                    <img class="giftset__slide-img" src="img/giftset.png">
+                    <img alt="photo" class="giftset__slide-img b-lazy animate"
+                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                         data-src="img/giftset.png">
                 </div>
             </div>
             <div class="giftset__tabs">
@@ -540,7 +608,9 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide last-screen__slider-slide">
                     <div class="last-screen__slider-slide-photo">
-                        <img src="/img/image-1.jpg">
+                        <img alt="photo" class="b-lazy animate"
+                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                             data-src="/img/image-1.jpg">
                     </div>
                     <div class="last-screen__slider-slide-content">
                         <div class="last-screen__slider-slide-content-top">
@@ -561,7 +631,8 @@
                             <a href="#" class="last-screen__slider-slide-button last-screen__slider-slide-button_beige">
                                 MUA NGAY
                             </a>
-                            <a href="#" class="last-screen__slider-slide-button last-screen__slider-slide-button_transparent">
+                            <a href="#"
+                               class="last-screen__slider-slide-button last-screen__slider-slide-button_transparent">
                                 CHI TIẾT
                             </a>
                         </div>
@@ -569,7 +640,9 @@
                 </div>
                 <div class="swiper-slide last-screen__slider-slide">
                     <div class="last-screen__slider-slide-photo">
-                        <img src="/img/image-2.jpg">
+                        <img alt="photo" class="b-lazy animate"
+                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                             data-src="/img/image-2.jpg">
                     </div>
                     <div class="last-screen__slider-slide-content">
                         <div class="last-screen__slider-slide-content-top">
@@ -590,7 +663,8 @@
                             <a href="#" class="last-screen__slider-slide-button last-screen__slider-slide-button_beige">
                                 MUA NGAY
                             </a>
-                            <a href="#" class="last-screen__slider-slide-button last-screen__slider-slide-button_transparent">
+                            <a href="#"
+                               class="last-screen__slider-slide-button last-screen__slider-slide-button_transparent">
                                 CHI TIẾT
                             </a>
                         </div>
@@ -598,7 +672,9 @@
                 </div>
                 <div class="swiper-slide last-screen__slider-slide">
                     <div class="last-screen__slider-slide-photo">
-                        <img src="/img/image-3.jpg">
+                        <img alt="photo" class="b-lazy animate"
+                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                             data-src="/img/image-3.jpg">
                     </div>
                     <div class="last-screen__slider-slide-content">
                         <div class="last-screen__slider-slide-content-top">
@@ -619,7 +695,8 @@
                             <a href="#" class="last-screen__slider-slide-button last-screen__slider-slide-button_beige">
                                 MUA NGAY
                             </a>
-                            <a href="#" class="last-screen__slider-slide-button last-screen__slider-slide-button_transparent">
+                            <a href="#"
+                               class="last-screen__slider-slide-button last-screen__slider-slide-button_transparent">
                                 CHI TIẾT
                             </a>
                         </div>
@@ -627,7 +704,9 @@
                 </div>
                 <div class="swiper-slide last-screen__slider-slide">
                     <div class="last-screen__slider-slide-photo">
-                        <img src="/img/image-1.jpg">
+                        <img alt="photo" class="b-lazy animate"
+                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                             data-src="/img/image-1.jpg">
                     </div>
                     <div class="last-screen__slider-slide-content">
                         <div class="last-screen__slider-slide-content-top">
@@ -648,7 +727,8 @@
                             <a href="#" class="last-screen__slider-slide-button last-screen__slider-slide-button_beige">
                                 MUA NGAY
                             </a>
-                            <a href="#" class="last-screen__slider-slide-button last-screen__slider-slide-button_transparent">
+                            <a href="#"
+                               class="last-screen__slider-slide-button last-screen__slider-slide-button_transparent">
                                 CHI TIẾT
                             </a>
                         </div>
@@ -656,7 +736,9 @@
                 </div>
                 <div class="swiper-slide last-screen__slider-slide">
                     <div class="last-screen__slider-slide-photo">
-                        <img src="/img/image-1.jpg">
+                        <img alt="photo" class="b-lazy animate"
+                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                             data-src="/img/image-1.jpg">
                     </div>
                     <div class="last-screen__slider-slide-content">
                         <div class="last-screen__slider-slide-content-top">
@@ -677,7 +759,8 @@
                             <a href="#" class="last-screen__slider-slide-button last-screen__slider-slide-button_beige">
                                 MUA NGAY
                             </a>
-                            <a href="#" class="last-screen__slider-slide-button last-screen__slider-slide-button_transparent">
+                            <a href="#"
+                               class="last-screen__slider-slide-button last-screen__slider-slide-button_transparent">
                                 CHI TIẾT
                             </a>
                         </div>
@@ -685,7 +768,9 @@
                 </div>
                 <div class="swiper-slide last-screen__slider-slide">
                     <div class="last-screen__slider-slide-photo">
-                        <img src="/img/image-2.jpg">
+                        <img alt="photo" class="b-lazy animate"
+                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                             data-src="/img/image-2.jpg">
                     </div>
                     <div class="last-screen__slider-slide-content">
                         <div class="last-screen__slider-slide-content-top">
@@ -706,7 +791,8 @@
                             <a href="#" class="last-screen__slider-slide-button last-screen__slider-slide-button_beige">
                                 MUA NGAY
                             </a>
-                            <a href="#" class="last-screen__slider-slide-button last-screen__slider-slide-button_transparent">
+                            <a href="#"
+                               class="last-screen__slider-slide-button last-screen__slider-slide-button_transparent">
                                 CHI TIẾT
                             </a>
                         </div>
@@ -714,7 +800,9 @@
                 </div>
                 <div class="swiper-slide last-screen__slider-slide">
                     <div class="last-screen__slider-slide-photo">
-                        <img src="/img/image-3.jpg">
+                        <img alt="photo" class="b-lazy animate"
+                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                             data-src="/img/image-3.jpg">
                     </div>
                     <div class="last-screen__slider-slide-content">
                         <div class="last-screen__slider-slide-content-top">
@@ -735,7 +823,8 @@
                             <a href="#" class="last-screen__slider-slide-button last-screen__slider-slide-button_beige">
                                 MUA NGAY
                             </a>
-                            <a href="#" class="last-screen__slider-slide-button last-screen__slider-slide-button_transparent">
+                            <a href="#"
+                               class="last-screen__slider-slide-button last-screen__slider-slide-button_transparent">
                                 CHI TIẾT
                             </a>
                         </div>
@@ -744,17 +833,24 @@
             </div>
             <div class="last-screen__slider-button-prev">
                 <svg width="24" height="17" viewBox="0 0 24 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M16.1613 0.255668C15.8344 -0.0852227 15.2902 -0.0852227 14.9518 0.255668C14.6248 0.585042 14.6248 1.13323 14.9518 1.46184L21.0848 7.6401H0.846745C0.374976 7.64086 0 8.01861 0 8.49386C0 8.96911 0.374976 9.35914 0.846745 9.35914H21.0848L14.9518 15.5259C14.6248 15.8668 14.6248 16.4157 14.9518 16.7443C15.2902 17.0852 15.8351 17.0852 16.1613 16.7443L23.7462 9.10347C24.0846 8.77409 24.0846 8.22591 23.7462 7.8973L16.1613 0.255668Z" fill="#F9FBFF"/>
+                    <path d="M16.1613 0.255668C15.8344 -0.0852227 15.2902 -0.0852227 14.9518 0.255668C14.6248 0.585042 14.6248 1.13323 14.9518 1.46184L21.0848 7.6401H0.846745C0.374976 7.64086 0 8.01861 0 8.49386C0 8.96911 0.374976 9.35914 0.846745 9.35914H21.0848L14.9518 15.5259C14.6248 15.8668 14.6248 16.4157 14.9518 16.7443C15.2902 17.0852 15.8351 17.0852 16.1613 16.7443L23.7462 9.10347C24.0846 8.77409 24.0846 8.22591 23.7462 7.8973L16.1613 0.255668Z"
+                          fill="#F9FBFF"/>
                 </svg>
             </div>
             <div class="last-screen__slider-button-next">
                 <svg width="24" height="17" viewBox="0 0 24 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M16.1613 0.255668C15.8344 -0.0852227 15.2902 -0.0852227 14.9518 0.255668C14.6248 0.585042 14.6248 1.13323 14.9518 1.46184L21.0848 7.6401H0.846745C0.374976 7.64086 0 8.01861 0 8.49386C0 8.96911 0.374976 9.35914 0.846745 9.35914H21.0848L14.9518 15.5259C14.6248 15.8668 14.6248 16.4157 14.9518 16.7443C15.2902 17.0852 15.8351 17.0852 16.1613 16.7443L23.7462 9.10347C24.0846 8.77409 24.0846 8.22591 23.7462 7.8973L16.1613 0.255668Z" fill="#F9FBFF"/>
+                    <path d="M16.1613 0.255668C15.8344 -0.0852227 15.2902 -0.0852227 14.9518 0.255668C14.6248 0.585042 14.6248 1.13323 14.9518 1.46184L21.0848 7.6401H0.846745C0.374976 7.64086 0 8.01861 0 8.49386C0 8.96911 0.374976 9.35914 0.846745 9.35914H21.0848L14.9518 15.5259C14.6248 15.8668 14.6248 16.4157 14.9518 16.7443C15.2902 17.0852 15.8351 17.0852 16.1613 16.7443L23.7462 9.10347C24.0846 8.77409 24.0846 8.22591 23.7462 7.8973L16.1613 0.255668Z"
+                          fill="#F9FBFF"/>
                 </svg>
             </div>
         </div>
     </div>
 </div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__text">© Revo Coffee Việt Nam - 2018</div>
+    </div>
+</footer>
 <script src="index.js"></script>
 </body>
 </html>

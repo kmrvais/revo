@@ -23,7 +23,15 @@ export default () => {
         slidesPerColumn: 2,
         spaceBetween: 29
       }
-    }
+    },
+    on: {
+      slideChangeTransitionEnd: function () {
+        bLazy.revalidate()
+      },
+      init: function () {
+        bLazy.revalidate()
+      },
+    },
   })
 
   console.info(mySwiper.navigation)
