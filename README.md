@@ -1,6 +1,6 @@
-# empty-project
+# Revo test
 
-Empty project.
+Test task for Revo.
 
 ## Building and running on localhost
 
